@@ -3,7 +3,7 @@
 Nu ska du få lära dig hur man kan få olika skript att köra beroende på vad som händer i programmet.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner.
 
 Vi ska göra en robot som ställer frågor och säger olika saker beroende på vad vi svarar. Tänk på program som du brukar använda där olika saker händer beroende var du klickar, till exempel spel som startar olika banor när du klickar på dem.
 
@@ -29,7 +29,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 5. Klicka på remixknappen för att spara en egen kopia av programmet
 
-![Alt Text](Remixknapp.png)
+![Alt Text](Image_4.png)
 
 Vi kan nu koda som vi vill i det remixade projektet. I detta program finns redan några skript utplacerade. Vi ska nu lära oss hur vi kan få roboten att ställa frågor till oss.
 
@@ -41,7 +41,7 @@ Roboten kan just nu bara säga hej. För att få roboten att ställa en fråga a
 
 ![Alt Text](Skript_1.gif)
 
-2. Dra sedan in två stycken **"säg _Hello!_ i 2 sekunder"**-skript ifrån rubriken **Utseende** och lägg efter varandra under frågan. Ändra texten i det första skriptet till _Hej_.
+2. Dra sedan in två stycken **"säg _Hej!_ i 2 sekunder"**-skript ifrån rubriken **Utseende** och lägg efter varandra under frågan. Ändra texten i det första skriptet till _Hej_.
 
 3. Ta sedan **"svar"**-skriptet ifrån rubriken **Känna av** och sätt istället för texten i det andra skriptet.
 
@@ -57,21 +57,21 @@ Med hjälp av skriptet **"om <> då"** under rubriken **Kontroll** kan vi få ro
 
 1. Lägg till **"om <> då"**-skriptet efter de andra skripten.
 
-2. Lägg till ett **"[] = []"**-skript ifrån rubriken **Operatorer** inuti **"om <> då"**-skriptet.
+2. Lägg till ett **"() = ()"**-skript ifrån rubriken **Operatorer** inuti **"om <> då"**-skriptet.
 
 ![Alt Text](Skript_3.gif)
 
-**"[] = []"**-skriptet säger åt roboten att jämföra om svaret som vi gav är lika med något annat.
+**"() = ()"**-skriptet säger åt roboten att jämföra om svaret som vi gav är lika med något annat.
 
-3. Dra in ett **"svar"**-skript på vänstra sidan av **"[] = []"**-skriptet.
+3. Dra in ett **"svar"**-skript på vänstra sidan av **"() = ()"**-skriptet.
 
-4. Skriv ditt eget namn på högersidan.
+4. Ta bort siffran 50 och skriv ditt eget namn på högersidan.
 
 ![Alt Text](Skript_4.gif)
 
 Nu kan vi få roboten att säga speciella saker till oss, som hon inte kommer säga till någon annan.
 
-5. Dra in ett **"säg _Hello!_ i 2 sekunder"**-skript innanför **"om <> då"**-skriptet.
+5. Dra in ett **"säg _Hej!_ i 2 sekunder"**-skript innanför **"om <> då"**-skriptet.
 
 6. Ändra texten till _Det är du som har programmerat mig!_
 
@@ -87,13 +87,13 @@ Nästa steg är nu att få roboten att säga helt olika saker baserat på vad du
 
 2. Dra in ett **"om <> då annars"**-skript ifrån rubriken **Kontroll**.
 
-3. Dra in ett **"[] < []"**-skript i **"om <> då annars"**-skriptet.
+3. Dra in ett **"() < ()"**-skript i **"om <> då annars"**-skriptet.
 
 ![Alt Text](Skript_5.gif)
 
-**"[] < []"**-skriptet säger åt roboten att jämföra om värdet på vänstersidan är mindre än det på högersidan.
+**"() < ()"**-skriptet säger åt roboten att jämföra om värdet på vänstersidan är mindre än det på högersidan.
 
-4. Dra in ett **"svar"**-skript på vänster sida och ändra högersidan till 13.
+4. Dra in ett **"svar"**-skript på vänster sida och ändra högersidan från 50 till 13.
 
 ![Alt Text](Skript_6.gif)
 
